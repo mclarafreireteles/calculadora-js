@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: antiquewhite;     
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.calculadora {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 1.5rem 1rem 1.5rem 1rem;
+    border-radius: 2rem;
+    border: 3px solid #000000;
+    margin-top: 3rem;
+}
+
+.calculadora tr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 14px;
+
+}
+
+#visor {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    align-items: flex-end;
+    border-radius: 20px;
+    width: 100%;
+    border: none;
+    margin-bottom: 3rem;
+}
+
+#total {
+    border: none;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 25px;
+    background: none;
+    font-weight: 900;
+    padding: .5rem 1rem;
+    text-align: right;
+}
+
+#historico {
+    border: none;
+    font-family: "Hanken Grotesk", sans-serif;
+    background: none;
+    font-size: 15px;
+    padding: .5rem 1rem;
+    text-align: right;
+}
+
+.btn {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 1rem;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 1.3rem;
+    background-color: #FFFFFF;
+    cursor: pointer;
+
+}
+
+.btn-num {
+    border-radius: 4rem;
+    border: 2px solid #C9C9C9;
+    font-weight: 700;
+}
+
+.btn-num:active {
+    border-radius: 4rem;
+    border: 1px solid #C9C9C9;
+}
+
+.btn-tool {
+    border-radius: 1rem;
+    border: none;
+    background-color: #eeeeee;
+    font-weight: 700;
+
+}
+
+.btn-tool:active {
+    border-radius: 1rem;
+    border: none;
+    background-color: #d7d7d7;
+}
+
+.btn-operator {
+    background-color: #EAB0C8;
+    border: none;
+    color: #6B002C;
+    font-weight: 700;
+}
+
+.btn-operator:active {
+    background-color: #df9bb8;
+
+}
+
+.btn-eq {
+    background-color: #A5BDE1;
+    color: #071B39;
+    border: none;
+    font-weight: 700;
+
+}
+
+.btn-eq:active {
+    background-color: #759ad1;
+}
+
+.btn-del {
+    background-color: #C9D863;
+    color: #2E3400;
+    font-weight: 700;
+    border: none;
+
+}
+
+.btn-del:active {
+    background-color: #9eb02c;;
+}
+
+.btn-del {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

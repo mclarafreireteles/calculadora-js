@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <section class="container">
+        <table class="calculadora">
+                <tr id="visor">
+                    <td colspan="4"><input type="text" class="display" id="total"></td>
+                    <td colspan="4"><input type="text" class="display-historico" id="historico"></td>
+                </tr>           
+                <tr>
+                    <td><button class="btn btn-tool btn-clear" >C</button></td>
+                    <td><button class="btn btn-tool aparece" >(</button></td>
+                    <td><button class="btn btn-tool aparece">)</button></td>
+                    <td><button class="btn btn-operator aparece">/</button></td>
+                </tr>
+                <tr>
+                    <td><button class="btn btn-num aparece">7</button></td>
+                    <td><button class="btn btn-num aparece">8</button></td>
+                    <td><button class="btn btn-num aparece">9</button></td>
+                    <td><button class="btn btn-operator aparece">*</button></td>
+                </tr>
+                <tr>
+                    <td><button class="btn btn-num aparece">4</button></td>
+                    <td><button class="btn btn-num aparece">5</button></td>
+                    <td><button class="btn btn-num aparece">6</button></td>
+                    <td><button class="btn btn-operator aparece">+</button></td>
+                </tr>
+                <tr>
+                    <td><button class="btn btn-num aparece">1</button></td>
+                    <td><button class="btn btn-num aparece">2</button></td>
+                    <td><button class="btn btn-num aparece">3</button></td>
+                    <td><button class="btn btn-operator aparece">-</button></td>
+                </tr>
+                <tr>
+                    <td><button class="btn btn-tool aparece">.</button></td>
+                    <td><button class="btn btn-num aparece">0</button></td>
+                    <td><button class="btn btn-del"><span class="material-symbols-outlined backspace">backspace</span></button></td>
+                    <td><button class="btn btn-eq">=</button></td>
+                </tr>
+        </table>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
