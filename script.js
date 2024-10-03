@@ -36,6 +36,15 @@ function criaCalculadora() {
 
         inicia() {
             this.cliqueBotoes()
+            this.pressionaEnter();
+        },
+
+        pressionaEnter() {
+            this.display.addEventListener('keyup', e => {
+                if (e.keyCode === 13) {
+                    this.realizaConta();
+                }
+            })
         },
 
         cliqueBotoes() {
